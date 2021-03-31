@@ -14,4 +14,9 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+git clone https://github.com/rosywrt/luci-theme-rosy.git package/luci-theme-rosy
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
+git clone https://github.com/jerrykuku/luci-app-ttnode.git package/luci-app-ttnode
+git clone https://github.com/maxlicheng/luci-app-ssr-plus.git package/luci-app-ssr-plus
+git clone https://github.com/swxk521/luci-app-eqos.git package/luci-app-eqos
