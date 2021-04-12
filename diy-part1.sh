@@ -20,4 +20,4 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-a
 git clone https://github.com/jerrykuku/luci-app-ttnode.git package/luci-app-ttnode
 git clone https://github.com/maxlicheng/luci-app-ssr-plus.git package/luci-app-ssr-plus
 git clone https://github.com/swxk521/luci-app-eqos.git package/luci-app-eqos
-git dlone https://github.com/kuoruan/luci-app-qosv4.git package/luci-app-qosv4
+git clone https://github.com/kuoruan/luci-app-qosv4.git package/luci-app-qosv4
